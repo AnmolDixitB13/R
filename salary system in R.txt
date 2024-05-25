@@ -182,6 +182,9 @@ if(tolower(leaves)=='n') {
 }
 
 #---------------- Calling the suitable functions -----------------
+
+# Here, while calling the suitable functions, I had previously used if-else, but since else was
+# throwing error, I then used 2 separate if statements instead of if-else
   
 if(leave_days!=0){
   leaveDaysSalDeduction <- leaveDeduction(monthly_salary, leave_days, total_days_in_month)
