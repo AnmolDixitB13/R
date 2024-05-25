@@ -6,13 +6,16 @@ ________________________________________________________________________________
 
 #------------ Functions Section / All the necessary functions are defined here ------------
 
-# advice / my experience in R programming
-# prefer using multiple if statements or ifelse() instead of if-else because else often throws error in if - else 
+# advice for R programming
+# prefer using multiple if statements or ifelse() instead of if-else because else often throws
+error in if - else 
 
 daysInMonth <- function(month)
 {
-  if(tolower(month)=='jan' | tolower(month)== 'january' | tolower(month)=='mar' | tolower(month)== 'march' |
-  tolower(month)=='may' | tolower(month)== 'jul' | tolower(month)=='july' | tolower(month)== 'aug' | tolower(month)=='august'
+  if(tolower(month)=='jan' | tolower(month)== 'january' | tolower(month)=='mar' | 
+tolower(month)== 'march' |
+  tolower(month)=='may' | tolower(month)== 'jul' | tolower(month)=='july' | tolower(month)== 'aug' 
+| tolower(month)=='august'
    | tolower(month)== 'oct' | tolower(month)=='october' | tolower(month)== 'dec' | tolower(month)=='december'){
     return (31L) ;}
 
