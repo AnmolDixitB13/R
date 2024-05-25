@@ -19,7 +19,8 @@ tolower(month)== 'march' |
    | tolower(month)== 'oct' | tolower(month)=='october' | tolower(month)== 'dec' | tolower(month)=='december'){
     return (31L) ;}
 
-  if(tolower(month)=='apr' | tolower(month)== 'april' | tolower(month)=='jun' | tolower(month)== 'june' | tolower(month)=='sep'
+  if(tolower(month)=='apr' | tolower(month)== 'april' | tolower(month)=='jun' | 
+tolower(month)== 'june' | tolower(month)=='sep'
   | tolower(month)== 'september' | tolower(month)=='nov' | tolower(month)== 'november'){
     return (30L) ;}
 
