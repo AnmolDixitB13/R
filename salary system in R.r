@@ -2,7 +2,7 @@
 # Calculate annual ctc & monthly salary after leave deduction, ppf deduction and tax deduction
 # display the results
 
-____________________________________________________________________________________________________
+#____________________________________________________________________________________________________
 
 #------------ Functions Section / All the necessary functions are defined here ------------
 
